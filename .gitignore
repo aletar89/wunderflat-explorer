@@ -1,0 +1,45 @@
+# Node.js / npm / yarn
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json # Often committed, but can be ignored depending on workflow
+# pnpm-lock.yaml # If using pnpm
+
+# TypeScript compilation output
+dist/
+*.tsbuildinfo
+out/
+
+# Python
+venv/
+*.pyc
+__pycache__/
+.mypy_cache/
+*.egg-info/
+build/
+# .env # Uncomment if using environment variable files
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log files
+*.log
+logs/
+
+# Output files from crawler script
+*.csv
+*.html
+*.png
+
+# Temporary files
+*.tmp 
